@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-16T09:47:40 IST" name="Default suite" finished-at="2025-02-16T09:48:01 IST" duration-ms="20663">
+  <suite started-at="2025-02-19T23:23:27 IST" name="Suite" finished-at="2025-02-19T23:24:14 IST" duration-ms="46819">
     <groups>
     </groups>
-    <test started-at="2025-02-16T09:47:40 IST" name="Default test" finished-at="2025-02-16T09:48:01 IST" duration-ms="20663">
+    <test started-at="2025-02-19T23:23:27 IST" name="Test" finished-at="2025-02-19T23:24:14 IST" duration-ms="46819">
       <class name="com.qa.EcomPlay.tests.HomePageTest">
-        <test-method is-config="true" signature="startup()[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@30f842ca]" started-at="2025-02-16T09:47:40 IST" name="startup" finished-at="2025-02-16T09:47:57 IST" duration-ms="17250" status="PASS">
+        <test-method is-config="true" signature="startup()[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@35b74c5c]" started-at="2025-02-19T23:24:04 IST" name="startup" finished-at="2025-02-19T23:24:10 IST" duration-ms="5821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startup -->
-        <test-method signature="SearchTest(java.lang.String)[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@30f842ca]" started-at="2025-02-16T09:47:57 IST" name="SearchTest" data-provider="getProductData" finished-at="2025-02-16T09:47:59 IST" duration-ms="1575" status="PASS">
+        <test-method signature="HomePageTitleTest()[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@35b74c5c]" started-at="2025-02-19T23:24:10 IST" name="HomePageTitleTest" finished-at="2025-02-19T23:24:10 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleTest -->
+        <test-method signature="HomePageURLTest()[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@35b74c5c]" started-at="2025-02-19T23:24:10 IST" name="HomePageURLTest" finished-at="2025-02-19T23:24:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageURLTest -->
+        <test-method signature="SearchTest(java.lang.String)[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@35b74c5c]" started-at="2025-02-19T23:24:10 IST" name="SearchTest" data-provider="getProductData" finished-at="2025-02-19T23:24:12 IST" duration-ms="2263" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method signature="SearchTest(java.lang.String)[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@30f842ca]" started-at="2025-02-16T09:47:59 IST" name="SearchTest" data-provider="getProductData" finished-at="2025-02-16T09:48:00 IST" duration-ms="747" status="PASS">
+        <test-method signature="SearchTest(java.lang.String)[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@35b74c5c]" started-at="2025-02-19T23:24:12 IST" name="SearchTest" data-provider="getProductData" finished-at="2025-02-19T23:24:13 IST" duration-ms="647" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method signature="SearchTest(java.lang.String)[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@30f842ca]" started-at="2025-02-16T09:48:00 IST" name="SearchTest" data-provider="getProductData" finished-at="2025-02-16T09:48:00 IST" duration-ms="724" status="PASS">
+        <test-method signature="SearchTest(java.lang.String)[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@35b74c5c]" started-at="2025-02-19T23:24:13 IST" name="SearchTest" data-provider="getProductData" finished-at="2025-02-19T23:24:14 IST" duration-ms="812" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,11 +52,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@30f842ca]" started-at="2025-02-16T09:48:00 IST" name="tearDown" finished-at="2025-02-16T09:48:01 IST" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.EcomPlay.tests.HomePageTest@35b74c5c]" started-at="2025-02-19T23:24:14 IST" name="tearDown" finished-at="2025-02-19T23:24:14 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.EcomPlay.tests.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.qa.EcomPlay.tests.LoginPageTest">
+        <test-method is-config="true" signature="startup()[pri:0, instance:com.qa.EcomPlay.tests.LoginPageTest@3cce57c7]" started-at="2025-02-19T23:23:27 IST" name="startup" finished-at="2025-02-19T23:23:50 IST" duration-ms="22892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="loginPageNavigationTest()[pri:1, instance:com.qa.EcomPlay.tests.LoginPageTest@3cce57c7]" started-at="2025-02-19T23:23:50 IST" name="loginPageNavigationTest" finished-at="2025-02-19T23:23:51 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigationTest -->
+        <test-method signature="forgotPwdLinkExistTests()[pri:2, instance:com.qa.EcomPlay.tests.LoginPageTest@3cce57c7]" started-at="2025-02-19T23:23:51 IST" name="forgotPwdLinkExistTests" finished-at="2025-02-19T23:23:54 IST" duration-ms="3065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkExistTests -->
+        <test-method signature="appLogin()[pri:3, instance:com.qa.EcomPlay.tests.LoginPageTest@3cce57c7]" started-at="2025-02-19T23:23:54 IST" name="appLogin" finished-at="2025-02-19T23:24:04 IST" duration-ms="10002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.EcomPlay.tests.LoginPageTest@3cce57c7]" started-at="2025-02-19T23:24:04 IST" name="tearDown" finished-at="2025-02-19T23:24:04 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.EcomPlay.tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
